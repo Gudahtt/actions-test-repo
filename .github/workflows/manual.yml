@@ -31,7 +31,7 @@ jobs:
       - uses: actions/setup-node@v2
         with:
           node-version: ${{ steps.nvm.outputs.NODE_VERSION }}
-      - uses: Gudahtt/action-publish-gh-pages@b193f5582cb9cbee8e2f269168b0a05ca83cd3c0
+      - uses: Gudahtt/action-publish-gh-pages@v7
         with:
           source-directory: src
           # This will commit the contents of "public" in the source branch to
