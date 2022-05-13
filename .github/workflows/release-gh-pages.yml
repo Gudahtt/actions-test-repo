@@ -2,6 +2,7 @@ name: Create Release Pull Request
 
 on:
   workflow_dispatch:
+    inputs:
   
 
 jobs:
