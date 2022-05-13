@@ -3,6 +3,11 @@ name: Create Release Pull Request
 on:
   workflow_dispatch:
     inputs:
+      base-branch:
+        description: 'The base branch for git operations and the pull request.'
+        default: 'main'
+        required: true
+      
   
 
 jobs:
