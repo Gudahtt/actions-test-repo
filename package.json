@@ -28,6 +28,7 @@
     "lint:fix": "yarn lint:eslint --fix && yarn lint:misc --write",
     "build": "tsc --project ."
   },
+  "homepage": "https://github.com/MetaMask/action-test-repo#readme",
   "devDependencies": {
     "@metamask/auto-changelog": "^2.2.0",
     "@metamask/eslint-config": "^6.0.0",
